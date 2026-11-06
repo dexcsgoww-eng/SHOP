@@ -1,0 +1,359 @@
+2026-11-05 01:53:26,605 - __main__ - INFO - 🚀 Запуск бота...
+2026-11-05 01:53:26,610 - __main__ - INFO - ✅ База данных готова
+2026-11-05 01:53:27,093 - __main__ - INFO - ✅ Бот запущен: @ABUZERY_1BOT
+2026-11-05 01:53:27,176 - aiogram.dispatcher - INFO - Start polling
+2026-11-05 01:53:27,254 - aiogram.dispatcher - INFO - Run polling for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 01:53:33,446 - aiogram.event - INFO - Update id=378161176 is handled. Duration 244 ms by bot id=8534793922
+2026-11-05 01:53:36,505 - aiogram.event - INFO - Update id=378161177 is handled. Duration 201 ms by bot id=8534793922
+2026-11-05 01:53:37,857 - aiogram.event - INFO - Update id=378161178 is handled. Duration 202 ms by bot id=8534793922
+2026-11-05 01:53:38,995 - aiogram.event - INFO - Update id=378161179 is handled. Duration 193 ms by bot id=8534793922
+2026-11-05 01:53:40,797 - aiogram.event - INFO - Update id=378161180 is handled. Duration 105 ms by bot id=8534793922
+2026-11-05 01:53:42,171 - aiogram.event - INFO - Update id=378161181 is handled. Duration 145 ms by bot id=8534793922
+2026-11-05 01:53:43,821 - handlers.payment - ERROR - Topup error: XROCKET_TOKEN не указан в .env
+Traceback (most recent call last):
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\payment.py", line 159, in _create_topup
+    inv = await _svc(method).create_invoice(amount=amount, description=f"Пополнение баланса {amount}$", payload=f"topup:{event.from_user.id}:{amount}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 32, in create_invoice
+    result = await _request("POST", "/tg-invoices", body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 16, in _request
+    raise Exception("XROCKET_TOKEN не указан в .env")
+Exception: XROCKET_TOKEN не указан в .env
+2026-11-05 01:53:43,918 - aiogram.event - INFO - Update id=378161182 is handled. Duration 98 ms by bot id=8534793922
+2026-11-05 01:53:48,416 - aiogram.event - INFO - Update id=378161183 is handled. Duration 104 ms by bot id=8534793922
+2026-11-05 01:55:26,540 - __main__ - INFO - 🚀 Запуск бота...
+2026-11-05 01:55:26,542 - __main__ - INFO - ✅ База данных готова
+2026-11-05 01:55:26,995 - __main__ - INFO - ✅ Бот запущен: @ABUZERY_1BOT
+2026-11-05 01:55:27,083 - aiogram.dispatcher - INFO - Start polling
+2026-11-05 01:55:27,169 - aiogram.dispatcher - INFO - Run polling for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 01:55:32,609 - aiogram.event - INFO - Update id=378161184 is handled. Duration 262 ms by bot id=8534793922
+2026-11-05 01:55:34,074 - aiogram.event - INFO - Update id=378161185 is handled. Duration 135 ms by bot id=8534793922
+2026-11-05 01:55:35,089 - handlers.payment - ERROR - Topup error: XROCKET_TOKEN не указан в .env
+Traceback (most recent call last):
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\payment.py", line 159, in _create_topup
+    inv = await _svc(method).create_invoice(amount=amount, description=f"Пополнение баланса {amount}$", payload=f"topup:{event.from_user.id}:{amount}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 32, in create_invoice
+    result = await _request("POST", "/tg-invoices", body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 16, in _request
+    raise Exception("XROCKET_TOKEN не указан в .env")
+Exception: XROCKET_TOKEN не указан в .env
+2026-11-05 01:55:35,197 - aiogram.event - INFO - Update id=378161186 is handled. Duration 109 ms by bot id=8534793922
+2026-11-05 01:55:37,480 - aiogram.event - INFO - Update id=378161187 is handled. Duration 106 ms by bot id=8534793922
+2026-11-05 01:55:39,817 - aiogram.event - INFO - Update id=378161188 is handled. Duration 132 ms by bot id=8534793922
+2026-11-05 01:55:41,340 - aiogram.event - INFO - Update id=378161189 is handled. Duration 206 ms by bot id=8534793922
+2026-11-05 01:55:42,773 - aiogram.event - INFO - Update id=378161190 is handled. Duration 108 ms by bot id=8534793922
+2026-11-05 01:55:44,213 - aiogram.event - INFO - Update id=378161191 is handled. Duration 96 ms by bot id=8534793922
+2026-11-05 01:55:46,895 - aiogram.event - INFO - Update id=378161192 is handled. Duration 107 ms by bot id=8534793922
+2026-11-05 01:55:48,085 - handlers.payment - ERROR - Topup error: XROCKET_TOKEN не указан в .env
+Traceback (most recent call last):
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\payment.py", line 159, in _create_topup
+    inv = await _svc(method).create_invoice(amount=amount, description=f"Пополнение баланса {amount}$", payload=f"topup:{event.from_user.id}:{amount}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 32, in create_invoice
+    result = await _request("POST", "/tg-invoices", body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 16, in _request
+    raise Exception("XROCKET_TOKEN не указан в .env")
+Exception: XROCKET_TOKEN не указан в .env
+2026-11-05 01:55:48,189 - aiogram.event - INFO - Update id=378161193 is handled. Duration 105 ms by bot id=8534793922
+2026-11-05 01:58:35,244 - __main__ - INFO - 🚀 Запуск бота...
+2026-11-05 01:58:35,247 - __main__ - INFO - ✅ База данных готова
+2026-11-05 01:58:35,715 - __main__ - INFO - ✅ Бот запущен: @ABUZERY_1BOT
+2026-11-05 01:58:35,794 - aiogram.dispatcher - INFO - Start polling
+2026-11-05 01:58:35,871 - aiogram.dispatcher - INFO - Run polling for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 01:58:41,916 - aiogram.event - INFO - Update id=378161194 is handled. Duration 258 ms by bot id=8534793922
+2026-11-05 01:58:43,406 - aiogram.event - INFO - Update id=378161195 is handled. Duration 200 ms by bot id=8534793922
+2026-11-05 01:58:44,869 - aiogram.event - INFO - Update id=378161196 is handled. Duration 94 ms by bot id=8534793922
+2026-11-05 01:58:46,125 - aiogram.event - INFO - Update id=378161197 is handled. Duration 91 ms by bot id=8534793922
+2026-11-05 01:58:47,140 - handlers.payment - ERROR - Topup error: XROCKET_TOKEN не указан в .env
+Traceback (most recent call last):
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\payment.py", line 159, in _create_topup
+    inv = await _svc(method).create_invoice(amount=amount, description=f"Пополнение баланса {amount}$", payload=f"topup:{event.from_user.id}:{amount}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 32, in create_invoice
+    result = await _request("POST", "/tg-invoices", body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 16, in _request
+    raise Exception("XROCKET_TOKEN не указан в .env")
+Exception: XROCKET_TOKEN не указан в .env
+2026-11-05 01:58:47,245 - aiogram.event - INFO - Update id=378161198 is handled. Duration 107 ms by bot id=8534793922
+2026-11-05 01:58:49,782 - aiogram.event - INFO - Update id=378161199 is handled. Duration 109 ms by bot id=8534793922
+2026-11-05 01:58:51,654 - aiogram.event - INFO - Update id=378161200 is handled. Duration 191 ms by bot id=8534793922
+2026-11-05 01:58:53,863 - aiogram.event - INFO - Update id=378161201 is handled. Duration 180 ms by bot id=8534793922
+2026-11-05 01:58:56,345 - aiogram.event - INFO - Update id=378161202 is handled. Duration 91 ms by bot id=8534793922
+2026-11-05 01:58:58,780 - aiogram.event - INFO - Update id=378161203 is handled. Duration 194 ms by bot id=8534793922
+2026-11-05 01:59:00,811 - aiogram.event - INFO - Update id=378161204 is handled. Duration 198 ms by bot id=8534793922
+2026-11-05 01:59:02,459 - aiogram.event - INFO - Update id=378161205 is handled. Duration 197 ms by bot id=8534793922
+2026-11-05 01:59:04,358 - aiogram.event - INFO - Update id=378161206 is handled. Duration 177 ms by bot id=8534793922
+2026-11-05 01:59:10,533 - aiogram.event - INFO - Update id=378161207 is handled. Duration 189 ms by bot id=8534793922
+2026-11-05 01:59:27,775 - aiogram.event - INFO - Update id=378161208 is handled. Duration 180 ms by bot id=8534793922
+2026-11-05 01:59:31,843 - aiogram.event - INFO - Update id=378161209 is handled. Duration 197 ms by bot id=8534793922
+2026-11-05 02:00:17,274 - aiogram.dispatcher - INFO - Polling stopped
+2026-11-05 02:00:17,275 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-11-05 02:00:17,275 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8534793922)
+2026-11-05 02:00:17,526 - aiogram.dispatcher - INFO - Polling stopped for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 02:02:52,295 - __main__ - INFO - 🚀 Запуск бота...
+2026-11-05 02:02:52,298 - __main__ - INFO - ✅ База данных готова
+2026-11-05 02:02:52,785 - __main__ - INFO - ✅ Бот запущен: @ABUZERY_1BOT
+2026-11-05 02:02:52,870 - aiogram.dispatcher - INFO - Start polling
+2026-11-05 02:02:52,954 - aiogram.dispatcher - INFO - Run polling for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 02:02:56,519 - aiogram.event - INFO - Update id=378161210 is handled. Duration 365 ms by bot id=8534793922
+2026-11-05 02:02:58,065 - aiogram.event - INFO - Update id=378161211 is handled. Duration 109 ms by bot id=8534793922
+2026-11-05 02:02:59,169 - aiogram.event - INFO - Update id=378161212 is handled. Duration 103 ms by bot id=8534793922
+2026-11-05 02:03:00,119 - handlers.payment - ERROR - Topup error: XROCKET_TOKEN не указан в .env
+Traceback (most recent call last):
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\payment.py", line 155, in _create_topup
+    inv = await _svc(method).create_invoice(amount=amount, description=f"Пополнение баланса {amount}$", payload=f"topup:{event.from_user.id}:{amount}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 60, in create_invoice
+    result = await _request("POST", "/tg-invoices", body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 30, in _request
+    raise Exception("XROCKET_TOKEN не указан в .env")
+Exception: XROCKET_TOKEN не указан в .env
+2026-11-05 02:03:00,223 - aiogram.event - INFO - Update id=378161213 is handled. Duration 105 ms by bot id=8534793922
+2026-11-05 02:03:01,837 - aiogram.event - INFO - Update id=378161214 is handled. Duration 122 ms by bot id=8534793922
+2026-11-05 02:03:03,031 - aiogram.event - INFO - Update id=378161215 is handled. Duration 105 ms by bot id=8534793922
+2026-11-05 02:03:05,114 - aiogram.event - INFO - Update id=378161216 is handled. Duration 120 ms by bot id=8534793922
+2026-11-05 02:03:11,387 - aiogram.event - INFO - Update id=378161217 is handled. Duration 110 ms by bot id=8534793922
+2026-11-05 02:03:24,123 - aiogram.event - INFO - Update id=378161218 is handled. Duration 110 ms by bot id=8534793922
+2026-11-05 02:03:26,125 - aiogram.event - INFO - Update id=378161219 is handled. Duration 107 ms by bot id=8534793922
+2026-11-05 02:03:32,849 - aiogram.event - INFO - Update id=378161220 is handled. Duration 188 ms by bot id=8534793922
+2026-11-05 02:03:33,813 - aiogram.event - INFO - Update id=378161221 is handled. Duration 153 ms by bot id=8534793922
+2026-11-05 02:03:35,490 - aiogram.event - INFO - Update id=378161222 is handled. Duration 107 ms by bot id=8534793922
+2026-11-05 02:03:36,811 - aiogram.event - INFO - Update id=378161223 is handled. Duration 105 ms by bot id=8534793922
+2026-11-05 02:03:38,060 - aiogram.event - INFO - Update id=378161224 is handled. Duration 125 ms by bot id=8534793922
+2026-11-05 02:03:39,607 - aiogram.event - INFO - Update id=378161225 is handled. Duration 108 ms by bot id=8534793922
+2026-11-05 02:04:13,974 - __main__ - INFO - 🚀 Запуск бота...
+2026-11-05 02:04:13,976 - __main__ - INFO - ✅ База данных готова
+2026-11-05 02:04:14,473 - __main__ - INFO - ✅ Бот запущен: @ABUZERY_1BOT
+2026-11-05 02:04:14,560 - aiogram.dispatcher - INFO - Start polling
+2026-11-05 02:04:14,653 - aiogram.dispatcher - INFO - Run polling for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 02:04:18,799 - aiogram.event - INFO - Update id=378161226 is handled. Duration 246 ms by bot id=8534793922
+2026-11-05 02:04:21,588 - aiogram.event - INFO - Update id=378161227 is handled. Duration 105 ms by bot id=8534793922
+2026-11-05 02:04:30,236 - aiogram.event - INFO - Update id=378161228 is handled. Duration 127 ms by bot id=8534793922
+2026-11-05 02:04:32,984 - aiogram.event - INFO - Update id=378161229 is handled. Duration 119 ms by bot id=8534793922
+2026-11-05 02:04:34,456 - aiogram.event - INFO - Update id=378161230 is handled. Duration 219 ms by bot id=8534793922
+2026-11-05 02:04:35,925 - aiogram.event - INFO - Update id=378161231 is handled. Duration 246 ms by bot id=8534793922
+2026-11-05 02:04:37,204 - aiogram.event - INFO - Update id=378161232 is handled. Duration 106 ms by bot id=8534793922
+2026-11-05 02:04:38,315 - aiogram.event - INFO - Update id=378161233 is handled. Duration 215 ms by bot id=8534793922
+2026-11-05 02:04:41,660 - handlers.payment - ERROR - Payment error xrocket: XROCKET_TOKEN не указан в .env
+Traceback (most recent call last):
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\payment.py", line 58, in pay_start
+    inv = await _svc(method).create_invoice(amount=prod["price"], description=f"Покупка: {prod['name']}", payload=f"{call.from_user.id}:{pid}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 60, in create_invoice
+    result = await _request("POST", "/tg-invoices", body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 30, in _request
+    raise Exception("XROCKET_TOKEN не указан в .env")
+Exception: XROCKET_TOKEN не указан в .env
+2026-11-05 02:04:41,764 - aiogram.event - INFO - Update id=378161234 is handled. Duration 216 ms by bot id=8534793922
+2026-11-05 02:04:44,074 - handlers.payment - ERROR - Payment error xrocket: XROCKET_TOKEN не указан в .env
+Traceback (most recent call last):
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\payment.py", line 58, in pay_start
+    inv = await _svc(method).create_invoice(amount=prod["price"], description=f"Покупка: {prod['name']}", payload=f"{call.from_user.id}:{pid}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 60, in create_invoice
+    result = await _request("POST", "/tg-invoices", body)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\services\xrocket.py", line 30, in _request
+    raise Exception("XROCKET_TOKEN не указан в .env")
+Exception: XROCKET_TOKEN не указан в .env
+2026-11-05 02:04:44,294 - aiogram.event - INFO - Update id=378161235 is handled. Duration 445 ms by bot id=8534793922
+2026-11-05 02:04:46,340 - services.crypto_bot - INFO - CryptoBot createInvoice: 200 | {"ok":true,"result":{"invoice_id":69441133,"hash":"IVRz6POSfTFG","currency_type":"crypto","asset":"USDT","amount":"10","pay_url":"https://t.me/CryptoBot?start=IVRz6POSfTFG","bot_invoice_url":"https://t.me/CryptoBot?start=IVRz6POSfTFG","mini_app_invoice_url":"https://t.me/CryptoBot/app?startapp=invoi
+2026-11-05 02:04:46,454 - aiogram.event - INFO - Update id=378161236 is handled. Duration 541 ms by bot id=8534793922
+2026-11-05 02:04:48,876 - aiogram.event - INFO - Update id=378161237 is handled. Duration 223 ms by bot id=8534793922
+2026-11-05 02:04:50,232 - aiogram.event - INFO - Update id=378161238 is handled. Duration 115 ms by bot id=8534793922
+2026-11-05 02:04:51,416 - aiogram.event - INFO - Update id=378161239 is handled. Duration 208 ms by bot id=8534793922
+2026-11-05 02:04:52,775 - aiogram.event - INFO - Update id=378161240 is handled. Duration 242 ms by bot id=8534793922
+2026-11-05 02:04:54,532 - aiogram.event - INFO - Update id=378161241 is handled. Duration 435 ms by bot id=8534793922
+2026-11-05 02:04:56,031 - aiogram.event - INFO - Update id=378161242 is handled. Duration 112 ms by bot id=8534793922
+2026-11-05 02:04:57,638 - aiogram.event - INFO - Update id=378161243 is handled. Duration 109 ms by bot id=8534793922
+2026-11-05 02:05:02,084 - aiogram.event - INFO - Update id=378161244 is handled. Duration 113 ms by bot id=8534793922
+2026-11-05 02:05:07,130 - aiogram.event - INFO - Update id=378161245 is handled. Duration 225 ms by bot id=8534793922
+2026-11-05 02:05:27,011 - aiogram.event - INFO - Update id=378161246 is handled. Duration 143 ms by bot id=8534793922
+2026-11-05 02:12:52,828 - aiogram.dispatcher - INFO - Polling stopped
+2026-11-05 02:12:52,829 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-11-05 02:12:52,829 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8534793922)
+2026-11-05 02:12:53,080 - aiogram.dispatcher - INFO - Polling stopped for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 02:13:59,895 - __main__ - INFO - 🚀 Запуск бота...
+2026-11-05 02:13:59,898 - __main__ - INFO - ✅ База данных готова
+2026-11-05 02:14:00,395 - __main__ - INFO - ✅ Бот запущен: @ABUZERY_1BOT
+2026-11-05 02:14:00,484 - aiogram.dispatcher - INFO - Start polling
+2026-11-05 02:14:00,575 - aiogram.dispatcher - INFO - Run polling for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 02:14:07,808 - aiogram.event - INFO - Update id=378161247 is handled. Duration 260 ms by bot id=8534793922
+2026-11-05 02:14:09,862 - aiogram.event - INFO - Update id=378161248 is handled. Duration 223 ms by bot id=8534793922
+2026-11-05 02:14:11,835 - aiogram.event - INFO - Update id=378161249 is handled. Duration 224 ms by bot id=8534793922
+2026-11-05 02:14:13,397 - aiogram.event - INFO - Update id=378161250 is handled. Duration 212 ms by bot id=8534793922
+2026-11-05 02:14:15,938 - aiogram.event - INFO - Update id=378161251 is handled. Duration 122 ms by bot id=8534793922
+2026-11-05 02:14:18,139 - aiogram.event - INFO - Update id=378161252 is handled. Duration 121 ms by bot id=8534793922
+2026-11-05 02:14:24,801 - aiogram.event - INFO - Update id=378161253 is handled. Duration 118 ms by bot id=8534793922
+2026-11-05 02:14:35,097 - aiogram.event - INFO - Update id=378161254 is handled. Duration 227 ms by bot id=8534793922
+2026-11-05 02:14:39,171 - aiogram.event - INFO - Update id=378161255 is handled. Duration 421 ms by bot id=8534793922
+2026-11-05 02:14:45,229 - aiogram.event - INFO - Update id=378161256 is handled. Duration 221 ms by bot id=8534793922
+2026-11-05 02:14:47,957 - aiogram.event - INFO - Update id=378161257 is handled. Duration 435 ms by bot id=8534793922
+2026-11-05 02:14:50,760 - aiogram.event - INFO - Update id=378161258 is handled. Duration 147 ms by bot id=8534793922
+2026-11-05 02:14:55,011 - aiogram.event - INFO - Update id=378161259 is handled. Duration 110 ms by bot id=8534793922
+2026-11-05 02:14:59,267 - aiogram.event - INFO - Update id=378161260 is handled. Duration 112 ms by bot id=8534793922
+2026-11-05 02:15:01,974 - aiogram.event - INFO - Update id=378161261 is handled. Duration 118 ms by bot id=8534793922
+2026-11-05 02:15:04,815 - aiogram.event - INFO - Update id=378161262 is handled. Duration 108 ms by bot id=8534793922
+2026-11-05 02:15:22,998 - aiogram.event - INFO - Update id=378161263 is handled. Duration 119 ms by bot id=8534793922
+2026-11-05 02:15:30,469 - aiogram.event - INFO - Update id=378161264 is handled. Duration 139 ms by bot id=8534793922
+2026-11-05 02:15:32,122 - aiogram.event - INFO - Update id=378161265 is handled. Duration 213 ms by bot id=8534793922
+2026-11-05 02:15:34,299 - aiogram.event - INFO - Update id=378161266 is handled. Duration 368 ms by bot id=8534793922
+2026-11-05 02:15:38,619 - aiogram.event - INFO - Update id=378161267 is handled. Duration 156 ms by bot id=8534793922
+2026-11-05 02:15:41,036 - aiogram.event - INFO - Update id=378161268 is handled. Duration 214 ms by bot id=8534793922
+2026-11-05 02:15:42,471 - aiogram.event - INFO - Update id=378161269 is handled. Duration 226 ms by bot id=8534793922
+2026-11-05 02:15:49,015 - aiogram.event - INFO - Update id=378161270 is handled. Duration 129 ms by bot id=8534793922
+2026-11-05 02:15:56,054 - aiogram.event - INFO - Update id=378161271 is handled. Duration 121 ms by bot id=8534793922
+2026-11-05 02:15:58,181 - aiogram.event - INFO - Update id=378161272 is handled. Duration 110 ms by bot id=8534793922
+2026-11-05 02:16:04,150 - aiogram.event - INFO - Update id=378161273 is handled. Duration 111 ms by bot id=8534793922
+2026-11-05 02:16:06,209 - aiogram.event - INFO - Update id=378161274 is handled. Duration 122 ms by bot id=8534793922
+2026-11-05 02:16:08,224 - aiogram.event - INFO - Update id=378161275 is handled. Duration 114 ms by bot id=8534793922
+2026-11-05 02:16:11,481 - aiogram.event - INFO - Update id=378161276 is not handled. Duration 126 ms by bot id=8534793922
+2026-11-05 02:16:11,481 - aiogram.event - ERROR - Cause exception while process update id=378161276 by bot id=8534793922
+ValidationError: 1 validation error for CallbackQuery
+data
+  Instance is frozen [type=frozen_instance, input_value='adm:btn:catalog', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/frozen_instance
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 321, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 284, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\router.py", line 200, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\router.py", line 172, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\router.py", line 164, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\router.py", line 192, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\avtvo\OneDrive\Desktop\lkk\shop-bot v2\handlers\admin.py", line 1041, in adm_set_style
+    call.data = f"adm:btn:{name}"
+    ^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\pydantic\main.py", line 1048, in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\pydantic\main.py", line 1084, in _setattr_handler
+    _check_frozen(cls, name, value)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\pydantic\main.py", line 90, in _check_frozen
+    raise ValidationError.from_exception_data(
+        model_cls.__name__, [{'type': error_type, 'loc': (name,), 'input': value}]
+    )
+pydantic_core._pydantic_core.ValidationError: 1 validation error for CallbackQuery
+data
+  Instance is frozen [type=frozen_instance, input_value='adm:btn:catalog', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/frozen_instance
+2026-11-05 02:16:13,346 - aiogram.event - INFO - Update id=378161277 is handled. Duration 113 ms by bot id=8534793922
+2026-11-05 02:16:15,104 - aiogram.event - INFO - Update id=378161278 is handled. Duration 132 ms by bot id=8534793922
+2026-11-05 02:16:16,617 - aiogram.event - INFO - Update id=378161279 is handled. Duration 212 ms by bot id=8534793922
+2026-11-05 02:16:18,059 - aiogram.event - INFO - Update id=378161280 is handled. Duration 263 ms by bot id=8534793922
+2026-11-05 02:16:22,098 - aiogram.event - INFO - Update id=378161281 is handled. Duration 218 ms by bot id=8534793922
+2026-11-05 02:16:24,116 - aiogram.event - INFO - Update id=378161282 is handled. Duration 116 ms by bot id=8534793922
+2026-11-05 02:16:25,648 - aiogram.event - INFO - Update id=378161283 is handled. Duration 122 ms by bot id=8534793922
+2026-11-05 02:16:28,159 - aiogram.event - INFO - Update id=378161284 is handled. Duration 112 ms by bot id=8534793922
+2026-11-05 02:16:33,644 - aiogram.event - INFO - Update id=378161285 is handled. Duration 116 ms by bot id=8534793922
+2026-11-05 02:16:41,401 - aiogram.event - INFO - Update id=378161286 is handled. Duration 120 ms by bot id=8534793922
+2026-11-05 02:17:06,075 - aiogram.event - INFO - Update id=378161287 is handled. Duration 118 ms by bot id=8534793922
+2026-11-05 02:17:23,418 - aiogram.event - INFO - Update id=378161288 is handled. Duration 112 ms by bot id=8534793922
+2026-11-05 02:17:26,580 - aiogram.event - INFO - Update id=378161289 is handled. Duration 133 ms by bot id=8534793922
+2026-11-05 02:17:28,355 - aiogram.event - INFO - Update id=378161290 is handled. Duration 210 ms by bot id=8534793922
+2026-11-05 02:17:29,625 - aiogram.event - INFO - Update id=378161291 is handled. Duration 237 ms by bot id=8534793922
+2026-11-05 02:20:01,577 - aiogram.event - INFO - Update id=378161292 is handled. Duration 138 ms by bot id=8534793922
+2026-11-05 02:20:03,253 - aiogram.event - INFO - Update id=378161293 is handled. Duration 272 ms by bot id=8534793922
+2026-11-05 02:20:04,893 - aiogram.event - INFO - Update id=378161294 is handled. Duration 224 ms by bot id=8534793922
+2026-11-05 02:20:06,507 - aiogram.event - INFO - Update id=378161295 is handled. Duration 213 ms by bot id=8534793922
+2026-11-05 02:20:07,759 - aiogram.event - INFO - Update id=378161296 is handled. Duration 336 ms by bot id=8534793922
+2026-11-05 02:20:14,356 - aiogram.event - INFO - Update id=378161297 is handled. Duration 114 ms by bot id=8534793922
+2026-11-05 02:20:16,097 - aiogram.event - INFO - Update id=378161298 is handled. Duration 110 ms by bot id=8534793922
+2026-11-05 02:20:18,451 - aiogram.event - INFO - Update id=378161299 is handled. Duration 130 ms by bot id=8534793922
+2026-11-05 02:20:19,637 - aiogram.event - INFO - Update id=378161300 is handled. Duration 124 ms by bot id=8534793922
+2026-11-05 02:20:20,928 - aiogram.event - INFO - Update id=378161301 is handled. Duration 119 ms by bot id=8534793922
+2026-11-05 02:20:23,741 - aiogram.event - INFO - Update id=378161302 is handled. Duration 113 ms by bot id=8534793922
+2026-11-05 02:20:25,079 - aiogram.event - INFO - Update id=378161303 is handled. Duration 110 ms by bot id=8534793922
+2026-11-05 02:20:26,176 - aiogram.event - INFO - Update id=378161304 is handled. Duration 125 ms by bot id=8534793922
+2026-11-05 02:20:27,375 - aiogram.event - INFO - Update id=378161305 is handled. Duration 238 ms by bot id=8534793922
+2026-11-05 02:20:31,737 - aiogram.event - INFO - Update id=378161306 is handled. Duration 223 ms by bot id=8534793922
+2026-11-05 02:20:49,176 - aiogram.event - INFO - Update id=378161307 is handled. Duration 114 ms by bot id=8534793922
+2026-11-05 02:20:52,530 - aiogram.event - INFO - Update id=378161308 is handled. Duration 136 ms by bot id=8534793922
+2026-11-05 02:20:53,855 - aiogram.event - INFO - Update id=378161309 is handled. Duration 211 ms by bot id=8534793922
+2026-11-05 02:20:55,333 - aiogram.event - INFO - Update id=378161310 is handled. Duration 229 ms by bot id=8534793922
+2026-11-05 02:22:02,077 - aiogram.dispatcher - INFO - Polling stopped
+2026-11-05 02:22:02,078 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-11-05 02:22:02,078 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8534793922)
+2026-11-05 02:22:02,329 - aiogram.dispatcher - INFO - Polling stopped for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 02:29:18,676 - __main__ - INFO - 🚀 Запуск бота...
+2026-11-05 02:29:18,679 - __main__ - INFO - ✅ База данных готова
+2026-11-05 02:29:19,158 - __main__ - INFO - ✅ Бот запущен: @ABUZERY_1BOT
+2026-11-05 02:29:19,243 - aiogram.dispatcher - INFO - Start polling
+2026-11-05 02:29:19,335 - aiogram.dispatcher - INFO - Run polling for bot @ABUZERY_1BOT id=8534793922 - 'PROXY SALE'
+2026-11-05 02:29:23,988 - aiogram.event - INFO - Update id=378161326 is handled. Duration 292 ms by bot id=8534793922
+2026-11-05 02:29:25,452 - aiogram.event - INFO - Update id=378161327 is handled. Duration 206 ms by bot id=8534793922
+2026-11-05 02:29:27,119 - aiogram.event - INFO - Update id=378161328 is handled. Duration 215 ms by bot id=8534793922
+2026-11-05 02:29:31,020 - aiogram.event - INFO - Update id=378161329 is handled. Duration 109 ms by bot id=8534793922
+2026-11-05 02:29:33,306 - aiogram.event - INFO - Update id=378161330 is handled. Duration 120 ms by bot id=8534793922
+2026-11-05 02:29:35,588 - aiogram.event - INFO - Update id=378161331 is handled. Duration 104 ms by bot id=8534793922
+2026-11-05 02:29:41,517 - aiogram.event - INFO - Update id=378161332 is handled. Duration 109 ms by bot id=8534793922
+2026-11-05 02:29:43,627 - aiogram.event - INFO - Update id=378161333 is handled. Duration 112 ms by bot id=8534793922
+2026-11-05 02:29:45,137 - aiogram.event - INFO - Update id=378161334 is handled. Duration 113 ms by bot id=8534793922
+2026-11-05 02:29:50,035 - aiogram.event - INFO - Update id=378161335 is handled. Duration 104 ms by bot id=8534793922
+2026-11-05 02:30:39,962 - aiogram.event - INFO - Update id=378161336 is handled. Duration 207 ms by bot id=8534793922
+2026-11-05 02:30:44,676 - aiogram.event - INFO - Update id=378161337 is handled. Duration 132 ms by bot id=8534793922
+2026-11-05 02:30:46,239 - aiogram.event - INFO - Update id=378161338 is handled. Duration 213 ms by bot id=8534793922
+2026-11-05 02:30:47,817 - aiogram.event - INFO - Update id=378161339 is handled. Duration 238 ms by bot id=8534793922
+2026-11-05 02:30:52,410 - aiogram.event - INFO - Update id=378161340 is handled. Duration 213 ms by bot id=8534793922
+2026-11-05 02:30:56,767 - aiogram.event - INFO - Update id=378161341 is handled. Duration 104 ms by bot id=8534793922
+2026-11-05 02:30:59,349 - aiogram.event - INFO - Update id=378161342 is handled. Duration 97 ms by bot id=8534793922
+2026-11-05 02:31:01,853 - aiogram.event - INFO - Update id=378161343 is handled. Duration 224 ms by bot id=8534793922
+2026-11-05 02:31:04,215 - aiogram.event - INFO - Update id=378161344 is handled. Duration 268 ms by bot id=8534793922
